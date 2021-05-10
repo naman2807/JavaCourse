@@ -14,9 +14,7 @@ public class usingForEachLoop {
         System.out.println(Arrays.toString(numbersList));
         int sumOfNumbers = 0;
 
-        for (int number : numbersList) {
-            sumOfNumbers += number;
-        }
+        numberList.forEach(e -> sumOfNumbers + e);
         System.out.println("Sum of numbers = " + sumOfNumbers);
     }
 }
